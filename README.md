@@ -1,5 +1,5 @@
 
-# Advanced Building Blocks - Bubble Sort
+# Basic Ruby : Classes and Methods
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
