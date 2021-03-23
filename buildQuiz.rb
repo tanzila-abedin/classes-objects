@@ -1,4 +1,5 @@
-# input and output
+
+#input and output
 
 class MultipleChoice
   attr_accessor :prompt, :answer
@@ -20,14 +21,14 @@ questions = [
 ]
 
 def run_test(questions)
-  answer = ''
+  answer = ""
   score = 0
 
   for question in questions
     puts question.prompt
     answer = gets.chomp
     if answer == question.answer
-       score += 1
+      score += 1
     end
   end
   puts('You got ' + score.to_s + '/' + questions.length().to_s)
